@@ -15,9 +15,9 @@ const Joker = () => {
 
   return (
     <>
-      {/* <Helmet>
+      <Helmet>
         <title>Joker Quotes </title>
-      </Helmet> */}
+      </Helmet>
 
       <div className="min-w-screen min-h-screen bg-slate-900 flex items-center justify-center px-5 py-5">
         <div
