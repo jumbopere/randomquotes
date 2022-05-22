@@ -1,21 +1,20 @@
-import React from 'react'
-import {  Quotes, Joker, Navbar } from './components'
-import { BrowserRouter, Routes,  Route} from 'react-router-dom'
-
+import React from "react";
+import { Quotes, Joker, Navbar, Footer } from "./components";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const app = () => {
   return (
     <BrowserRouter>
-    <div className='bg-gray-200'>
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<Quotes/>}/>
-        <Route path ='joker' element={<Joker/>}/>
-      </Routes>
-      <Joker/>
+      <div className=" bg-slate-900 ">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Quotes />} />
+          <Route path="joker" element={<Joker />} />
+        </Routes>
+        <Footer/>
       </div>
-      </BrowserRouter>
-  )
-}
+    </BrowserRouter>
+  );
+};
 
-export default app
+export default app;

@@ -183,4 +183,39 @@ export const Data = [
   {
     quote: "If you are just safe about the choices you make, you don't grow.",
   },
+  {
+    quote: "If someone hates you for no reason, give that jerk a reason.",
+  },
+  {
+    quote: "Oh, what the heck, I'll laugh anyway. HA HA HA HA HA HAA!",
+  },
+  {
+    quote: "Do I look like I'm joking?",
+  },
+  {
+    quote:
+      "Tell me something, my friend, have you ever danced with the devil in the pale moonlight?",
+  },
+  {
+    quote: "Does it depress you? To know just how alone you really are.",
+  },
+  {
+    quote: "The only sensible way to live is without rules.",
+  },
+  {
+    quote: "No matter the situation, always wear a smile.",
+  },
+  {
+    quote: "Do you want to know why I use a knife? Guns are too quick.",
+  },
+  {
+    quote: "I'm different, f*ck your opinion.",
+  },
+  {
+    quote:
+      "Someday someone will break you so badly that you'll become unbreakable.",
+  },
+  {
+    quote: "Tell your men they work for me now this is my city!",
+  },
 ];

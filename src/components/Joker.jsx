@@ -15,11 +15,11 @@ const Joker = () => {
 
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Joker Quotes </title>
-      </Helmet>
+      </Helmet> */}
 
-      <div className="min-w-screen min-h-screen bg-gray-200 flex items-center justify-center px-5 py-5">
+      <div className="min-w-screen min-h-screen bg-slate-900 flex items-center justify-center px-5 py-5">
         <div
           className="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800"
           style={{ maxWidth: 500 }}

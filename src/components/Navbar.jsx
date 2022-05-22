@@ -1,25 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="font-sans flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-4 px-6  shadow sm:items-baseline w-full">
-      <div className="mb-2 sm:mb-0">
-        <a
-          href="/home"
-          className="text-2xl no-underline text-grey-darkest hover:text-blue-dark"
-        >
-          Life
-        </a>
-      </div>
-      <div className="mb-2 sm:mb-0">
-        <a
-          href="/home"
-          className="text-2xl no-underline text-grey-darkest hover:text-blue-dark"
-        >
-          Joker
-        </a>
-      </div>
-    </nav>
+    <div className="flex justify-between h-15">
+      <Link to="joker" className="h-15 font-bold text-indigo-500 p-2">
+        Joker Quotes
+      </Link>
+      <Link to="/" className="h-15 font-bold text-indigo-500 p-2">
+        Life Quotes
+      </Link>
+    </div>
   );
 };
 
