@@ -1,2 +1,4 @@
-export { default as Hero} from '../../tests/components/Hero'
-export { default as Quotes} from './Quotes'
+export { default as Quotes } from "./Quotes";
+export { default as Joker } from "./Joker";
+export { default as Navbar } from "./Navbar";
+export { default as Footer } from "./Footer";
